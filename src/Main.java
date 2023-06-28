@@ -2,34 +2,34 @@ public class Main {
     public static void main(String[] args) {
         var dog =  8.0;
         System.out.println(dog);
-        dog = dog += 4.0;
+        dog += 4.0;
         System.out.println(dog);
-        dog = dog -= 3,5;
+        dog -= 3,5;
         System.out.println(dog);
         var cat = 3.6;
         System.out.println(cat);
-        cat = cat += 4.0;
+        cat += 4.0;
         System.out.println(cat);
-        cat = cat -= 1.6;
+        cat -= 1.6;
         System.out.println(cat);
         var paper = 763789;
         System.out.println(paper);
-        paper = paper += 4;
+        paper += 4;
         System.out.println(paper);
-        paper = paper -= 7639
+        paper -= 7639
         System.out.println(paper);
 
         var friend = 19;
         System.out.println(friend);
-        friend = friend += 2;
+        friend += 2;
         System.out.println(friend);
-        friend = friend /= 7;
+        friend /= 7;
         System.out.println(friend);
         var frog = 3.5;
         System.out.println(frog);
-        frog = frog *= 10;
+        frog *= 10;
         System.out.println(frog);
-        frog = frog /= 3.5;
+        frog /= 3.5;
         System.out.println(frog);
 
         var boxer1 = 78.2;
@@ -48,9 +48,9 @@ public class Main {
         var TotalHumans = totalHours /= work1Human;
         System.out.println("Всего работников в компании -" + TotalHumans + "человек");
 
-        var TotalWorkHumans = TotalHumans += 94;
+        var TotalWorkHumans += 94;
         System.out.println(TotalWorkHumans);
-        var WorkHours = totalHours /= TotalWorkHumans;
+        var WorkHours = totalHours / TotalWorkHumans;
         System.out.println("Если в компании работает" + TotalWorkHumans + "человек,то всего" + WorkHours + "часов работы может быть поделено между сотрудниками");
         }
     }
